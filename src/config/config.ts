@@ -39,7 +39,6 @@ class Config {
 
 export default new Config();
 
-
-export const credentials = JSON.parse(process.env.API_KEYS as string);
+// export const credentials = JSON.parse(process.env.API_KEYS as string);
 
 export const { green, cyan, red, yellow } = chalk;
